@@ -1,0 +1,20 @@
+.container_navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	background-color: rgba(252, 254, 255, 1);
+	border-bottom: 3px solid rgba(52, 152, 219, 1);
+
+}
+.container_navbar_item h2 {
+color: rgba(52, 152, 219, 1);
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+padding-left: 10px;
+padding-right: 10px;
+
+}

@@ -1,0 +1,32 @@
+.container_aboutme {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+    border-top: 2px solid rgba(43, 126, 181, 1);
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.container_aboutme_item {
+	
+	
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.aboutme_item_1 {
+	flex:1 1 0;
+
+}
+.aboutme_item_1 h2 {
+	font-family: 'Roboto', sans-serif;
+	
+	color: rgba(52, 152, 219, 0.9);
+}
+.aboutme_item_2 {
+	flex:2 1 0;
+}
+.aboutme_item_2 p {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 20px;
+	color: rgba(0, 0, 0, , 0.9);
+}
+

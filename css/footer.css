@@ -1,0 +1,15 @@
+.container_footer {
+	background-color: rgba(255, 255 ,255 , 1);
+	border-top: 1px solid rgba(220, 217, 217, 1);
+	padding: 60px 60px 60px 60px;
+	color: rgba(0, 0, 0, 0.9);
+	font-family: 'Nanum Gothic', sans-serif;
+	display: flex;
+	justify-content: center;
+}
+.container_footer_item h2 {
+	font-size: 24px;
+	padding: 15px 20px 15px 20px;
+	border:1px solid rgba(220, 217, 217, 1);
+	background-color: rgba(220, 217, 217, 1);
+}

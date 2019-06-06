@@ -1,0 +1,57 @@
+.banner {
+	height: calc(100vh - 60px);
+	
+	color: white;
+	background: linear-gradient(  135deg, rgba(29, 104, 153, 0.9) 0%,
+										  rgba(71, 145, 194, 0.8) 50%),
+	url('../img/apple_background.jpg');
+	background-size: cover;
+	overflow: hidden;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-align: center;
+}
+.banner h1 {
+	font-family: 'Roboto', sans-serif;
+	font-size: calc(5vw + 50px);
+	opacity: 0.8;
+	margin-bottom: 0px;
+}
+
+.banner-content p {
+	font-size: calc(1vw + 25px);
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 0px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 20px;
+}
+.banner-content a {
+	font-size: calc(1vw + 10px);
+	opacity: 0.8;
+	margin-bottom: 0px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 25px 5px 25px;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+.banner-content a:hover {
+	font-size: calc(1vw + 10px);
+	opacity: 0.8;
+	margin-bottom: 0px;
+	text-decoration: none;
+	color: rgba(52, 152, 219, 1);
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 25px 5px 25px;
+	border: 2px solid white;
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+
+
+
